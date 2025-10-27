@@ -18,4 +18,4 @@ DOMAIN-SUFFIX,kepler.jd.com,REJECT
 DOMAIN-SUFFIX,dsp-x.jd.com,REJECT
 DOMAIN-SUFFIX,knicks.jd.com,REJECT
 DOMAIN-SUFFIX,mapi.m.jd.com,REJECT
-AND,((DOMAIN-PREFIX, tnc), (OR, ((DOMAIN-SUFFIX, capcutapi.com), (DOMAIN-SUFFIX, zijieapi.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, sgsnssdk.com)))),REJECT
+AND,((DOMAIN-KEYWORD, tnc), (OR, ((DOMAIN-SUFFIX, capcutapi.com), (DOMAIN-SUFFIX, zijieapi.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, sgsnssdk.com)))),REJECT

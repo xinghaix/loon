@@ -1,0 +1,11 @@
+#!name = 个人自定义插件
+#!desc = 跳过部分地址
+#!author = xx
+#!system = iOS,iPadOS,tvOS,macOS
+#!system_version = 0.1
+#!loon_version = 3.3.2
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+#!homepage =
+
+[Rule]
+AND,((DOMAIN-KEYWORD, tnc), (OR, ((DOMAIN-SUFFIX, capcutapi.com), (DOMAIN-SUFFIX, zijieapi.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, sgsnssdk.com)))),REJECT

@@ -2,10 +2,12 @@
 #!desc = 跳过部分地址
 #!author = xx
 #!system = iOS,iPadOS,tvOS,macOS
-#!system_version = 0.1
+#!date = 2025-10-27 00:12:00
+#!version = 0.1
+#!system_version = 10
 #!loon_version = 3.3.2
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-#!homepage =
+#!homepage = https://github.com/xinghaix/loon/tree/main/Plugins
 
 [Rule]
 DOMAIN-SUFFIX,panglelog.gz.bcebos.com,REJECT

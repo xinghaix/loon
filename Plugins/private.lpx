@@ -7,7 +7,7 @@
 #!system_version = 10
 #!loon_version = 3.3.2
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-#!homepage =
+#!homepage = https://github.com/xinghaix/loon/tree/main/Plugins
 
 [Rule]
 AND,((DOMAIN-KEYWORD, tnc), (OR, ((DOMAIN-SUFFIX, capcutapi.com), (DOMAIN-SUFFIX, zijieapi.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, sgsnssdk.com)))),REJECT

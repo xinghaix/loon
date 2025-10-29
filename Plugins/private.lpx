@@ -19,3 +19,4 @@ DOMAIN-SUFFIX,kepler.jd.com,REJECT
 DOMAIN-SUFFIX,dsp-x.jd.com,REJECT
 DOMAIN-SUFFIX,knicks.jd.com,REJECT
 DOMAIN-SUFFIX,mapi.m.jd.com,REJECT
+DOMAIN-SUFFIX,d.meituan.net,DIRECT

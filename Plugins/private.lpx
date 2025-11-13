@@ -34,3 +34,4 @@ URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getSplashAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/b\/ad\/adBid,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/forum\/queryBlockAndAppealInfo,REJECT
+URL-REGEX,^https?:\/\/tieba.baidu.com\/c\/f\/forum\/shopGoodsFeed,REJECT

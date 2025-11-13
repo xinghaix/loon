@@ -12,14 +12,20 @@
 [Rule]
 AND,((DOMAIN-KEYWORD, tnc), (OR, ((DOMAIN-SUFFIX, capcutapi.com), (DOMAIN-SUFFIX, zijieapi.com), (DOMAIN-SUFFIX, isnssdk.com), (DOMAIN-SUFFIX, toutiaoapi.com), (DOMAIN-SUFFIX, bytedance.com), (DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, sgsnssdk.com)))),REJECT
 DOMAIN-SUFFIX,panglelog.gz.bcebos.com,REJECT
-DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,ad.richmob.cn,REJECT
 DOMAIN-SUFFIX,orbit.jd.com,REJECT
 DOMAIN-SUFFIX,kepler.jd.com,REJECT
 DOMAIN-SUFFIX,dsp-x.jd.com,REJECT
 DOMAIN-SUFFIX,knicks.jd.com,REJECT
 DOMAIN-SUFFIX,mapi.m.jd.com,REJECT
+
+# 美团外卖豁免,遇到再改
 DOMAIN-SUFFIX,d.meituan.net,DIRECT
+
+# 今日头条
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+
+# 贴吧
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getSplashAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/b\/ad\/adBid,REJECT

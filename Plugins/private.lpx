@@ -33,3 +33,4 @@ DOMAIN-SUFFIX,p26-ugwk-sign.byteimg.com,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getSplashAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/b\/ad\/adBid,REJECT
+URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/forum\/queryBlockAndAppealInfo,REJECT

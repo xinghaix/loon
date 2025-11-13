@@ -24,6 +24,10 @@ DOMAIN-SUFFIX,d.meituan.net,DIRECT
 
 # 今日头条
 DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,ugh5.cn,REJECT
+DOMAIN-SUFFIX,p26-ugwk-sign.byteimg.com,REJECT
+DOMAIN-SUFFIX,mon11-misc-hl.toutiaoapi.com,REJECT
+DOMAIN-SUFFIX,p26-ugwk-sign.byteimg.com,REJECT
 
 # 贴吧
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd,REJECT

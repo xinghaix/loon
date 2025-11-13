@@ -20,3 +20,6 @@ DOMAIN-SUFFIX,dsp-x.jd.com,REJECT
 DOMAIN-SUFFIX,knicks.jd.com,REJECT
 DOMAIN-SUFFIX,mapi.m.jd.com,REJECT
 DOMAIN-SUFFIX,d.meituan.net,DIRECT
+URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd,REJECT
+URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getSplashAd,REJECT
+URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/b\/ad\/adBid,REJECT

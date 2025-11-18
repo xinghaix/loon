@@ -35,3 +35,6 @@ URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getSplashAd,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/b\/ad\/adBid,REJECT
 URL-REGEX,^https?:\/\/tiebac\.baidu\.com\/c\/f\/forum\/queryBlockAndAppealInfo,REJECT
 URL-REGEX,^https?:\/\/tieba\.baidu\.com\/c\/f\/forum\/shopGoodsFeed,REJECT
+
+# 小说
+URL-REGEX,^https?:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/pangle\/setting,REJECT
